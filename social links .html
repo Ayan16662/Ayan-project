@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Social Links</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      max-width: 800px;
+    }
+
+    .card {
+      text-decoration: none;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s, background 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.2em;
+      min-width: 200px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .card i, .card img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .instagram { background-color: #E1306C; }
+    .twitter { background-color: #1DA1F2; }
+    .github { background-color: #333; }
+
+    .leetcode img,
+    .hackerrank img {
+      background: white;
+      border-radius: 4px;
+      padding: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Connect with Me</h1>
+  <div class="cards">
+    <a href="https://instagram.com/ayan0001__" class="card instagram" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.hackerrank.com/ayan211" class="card hackerrank" target="_blank">
+      <img src="https://cdn.worldvectorlogo.com/logos/hackerrank.svg" alt="HackerRank"> HackerRank
+    </a>
+    <a href="https://leetcode.com/ahmedayan88232" class="card leetcode" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode"> LeetCode
+    </a>
+    <a href="https://github.com/Ayan16662" class="card github" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://twitter.com/@AyanSiddique001" class="card twitter" target="_blank">
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+  </div>
+
+</body>
+</html>
+
+
